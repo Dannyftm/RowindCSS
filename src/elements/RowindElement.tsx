@@ -16,6 +16,7 @@ import MinMaxSize from "../components/MinMaxSize"
 interface RowindProps extends Roact.PropsWithChildren<{}> {
     tagName: "div" | "button" | "text" | "input",
     className?: string,
+    Disabled?: boolean,
     Text?: string,
     Event?: Roact.JsxInstanceEvents<Frame> |
              Roact.JsxInstanceEvents<TextButton> |
