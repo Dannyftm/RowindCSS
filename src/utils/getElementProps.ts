@@ -5,6 +5,7 @@ import getClassValue from "./getClassValue"
 interface RowindProps extends Roact.PropsWithChildren<{}> {
     tagName: "div" | "button" | "text" | "input",
     className?: string,
+    Disabled?: boolean,
     Text?: string,
     Events?: Roact.JsxInstanceEvents<Frame> |
              Roact.JsxInstanceEvents<TextButton> |
