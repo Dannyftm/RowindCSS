@@ -9,7 +9,7 @@ interface RowindProps extends Roact.PropsWithChildren<{}> {
     ref?: Roact.Ref<TextButton>
 }
 
-export default ({className = "", Dsiabled, Event, Text = "", ref}: RowindProps) => {
+export default ({className = "", Disabled, Event, Text = "", ref}: RowindProps) => {
     return (
         <RowindElement ref={ref} Disabled={Disabled} Event={Event}} Text={Text}
         tagName="button" className={className}/>
